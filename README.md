@@ -59,3 +59,54 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## ⚙️ Installation
+
+Before running this project, make sure you have Node.js installed on your computer.
+
+### 1️⃣ Download Node.js
+Download and install Node.js from the official website:
+
+🔗 https://nodejs.org/
+
+After installation, verify it was installed correctly:
+
+```bash
+node -v
+npm -v
+```
+
+### 2️⃣ Install Dependencies
+Open the project folder in your terminal and run:
+
+```bash
+npm install
+```
+
+This will install all required packages, including the `node_modules` vendor files.
+
+### 3️⃣ Run the Project
+Start the development server with:
+
+```bash
+npm start
+```
+
+Or, if using Vite:
+
+```bash
+npm run dev
+```
+
+## 📦 Vendor / Dependencies Folder
+
+The `node_modules` folder contains all vendor dependencies required for the project to run.
+
+⚠️ Note:
+The `node_modules` folder is usually **not uploaded** to :contentReference[oaicite:0]{index=0} because it can be regenerated using:
+
+```bash
+npm install
+```
+
+Make sure your project includes a `package.json` file so dependencies can be installed correctly.
